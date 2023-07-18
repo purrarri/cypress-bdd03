@@ -1,5 +1,7 @@
+Updated as quick request from Richi as try to visit 'https://www.saucedemo.com/v1/'
 
 ## How to Run The Test in Headless Mode
+
  simply run the following command and sit back and drink your water. The results should come up in a bit.
 
 
@@ -23,6 +25,8 @@
 5. Run npm run test or if that does not work try npx cypress open
 ```
 npm run test
+
+npx cypress open
 ```
 
 6. Wait for the Cypress GUI to appear
