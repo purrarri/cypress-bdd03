@@ -4,11 +4,7 @@
   "description": "cypress-with-bdd03",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open --env allure=true",
-    "headless": "npx cypress run --env allure=true",
-    "headless:chrome": "npx cypress run --browser chrome --env allure=true",
-    "allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
-    "allure:clear": "rm -r allure-results/ allure-report"
+    "test": "npx cypress"
   },
   "keywords": [
     "e2e",
